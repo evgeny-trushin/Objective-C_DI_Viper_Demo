@@ -1,0 +1,2 @@
+@protocol DemoPresenterOut <NSObject>
+@end
