@@ -7,7 +7,7 @@
 @implementation MainViewController
 
 - (IBAction)AddViper:(id)sender {
-    DemoViewController<DemoViewOut> * viewController = [[DemoViewController<DemoViewOut> alloc]
+    DemoViewController<DemoViewOut> *viewController = [[DemoViewController<DemoViewOut> alloc]
                                         initWithNibName: @"DemoViewController"
                                                  bundle: nil
     ];

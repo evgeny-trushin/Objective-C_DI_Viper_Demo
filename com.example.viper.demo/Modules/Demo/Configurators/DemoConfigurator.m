@@ -10,7 +10,7 @@
 - (id)viewInput:(UIViewController<DemoViewOut, DemoViewIn> *)view {
     DemoRouter<DemoRouterIn> *router = [DemoRouter<DemoRouterIn> new];
     DemoPresenter <DemoViewOut> *presenter = [DemoPresenter<DemoViewOut> new];
-    DemoInteractor<DemoInteractorIn> *interactor = [ DemoInteractor<DemoInteractorIn> new];
+    DemoInteractor<DemoInteractorIn> *interactor = [DemoInteractor<DemoInteractorIn> new];
     router.transitionHandler = view;
     presenter.view = view;
     presenter.router = router;
